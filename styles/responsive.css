@@ -1,8 +1,17 @@
+
+@media (max-width: 358px) {
+   .header-content__title {
+      font-size: 3.5rem;
+   }
+   .header-content__caption {
+      font-size: 1.5rem;
+   }
+}
 @media (min-width: 576px) {
     
 }
 @media (min-width: 768px) {
-   .nav__btn {
+   .nav__btn, .nav-menu {
     display: none;
    }
    .menu {
