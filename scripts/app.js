@@ -14,3 +14,6 @@ navBtn.addEventListener("click", function (){
         navOpen = true;
     }
 })
+ function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }

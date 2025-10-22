@@ -6,6 +6,9 @@
    .header-content__caption {
       font-size: 1.5rem;
    }
+   .newslatter__title{
+       max-width: 16rem;
+   }
 }
 @media (min-width: 576px) {
     
@@ -17,16 +20,59 @@
    .menu {
     display: flex;
    }
-   
+   .newslatter {
+      flex-direction: row;
+      text-align: left;
+      align-items: center;
+      justify-content: space-around;
+      gap: 3rem;
+   }
+   .newslatter__banner {
+      max-width: 42rem;
+   }
+   .footer__list-content {
+      display: flex;
+      justify-content: space-between;
+   }
+   .newslatter::before {
+      width: auto;
+      height: auto;
+      top: -10rem;
+      left: -40rem;
+      background-size: auto;
+      background-position: center left;
+   }
 }
 @media (min-width: 992px) {
     .nav__links {
     display: block;
    }
+   .footer__information-content {
+      width: 50rem;
+   }
+   .footer__flex--lg {
+      display: flex;
+      gap: 4rem;
+   }
+   .footer__list-content {
+      justify-content: end;
+      gap: 4rem;
+      flex-grow: 1;
+   }
 }
 @media (min-width: 1200px) {
-   
+   .newslatter::before {
+      width: auto;
+      height: auto;
+      top: -10rem;
+      left: -20rem;
+      background-size: auto;
+      background-position: center left;
+   }
+
 }
 @media (min-width: 1400px) {
-   
+   .footer__list-content {
+      gap: 8rem;
+   }
 }
